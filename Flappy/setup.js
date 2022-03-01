@@ -94,8 +94,8 @@ let bitchs = [];
 // hus variables
 const husImage = new Image(500, 500);
       husImage.src = "../assets/images/hus.png";
-const husSpawnInterval = 3200; // milliseconds
-const husXSpeed = -2.6;
+const husSpawnInterval = 3500; // milliseconds
+const husXSpeed = -2;
 let husTimeSinceLastSpawn = 0; // milliseconds
 let huss = [
     {
