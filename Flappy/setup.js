@@ -115,7 +115,7 @@ let huss = [
 // cloud variables
 const cloudImage = new Image(200, 200);
       cloudImage.src = "../assets/images/cloud.png";
-const cloudSpawnInterval = 10000; // milliseconds
+const cloudSpawnInterval = 3000; // milliseconds
 const cloudXSpeed = -.9;
 let cloudTimeSinceLastSpawn = 0; // milliseconds
 let clouds = [
