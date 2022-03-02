@@ -70,6 +70,11 @@ const fireballSpawnInterval = 1900;
 let fireballTimeSinceLastSpawn = fireballSpawnInterval;
 let fireballs = [];
 
+//explosion
+const explosionImage = new Image(300, 300);
+      explosionImage.src = "../assets/images/explosion-pixel-art-115633555132uir2zl9fd.png";
+
+
 // coin variables
 const coinSound = new Audio("../assets/sounds/coin.wav");
 const coinImage = scoreImage;
