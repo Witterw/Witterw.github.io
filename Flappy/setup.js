@@ -64,9 +64,9 @@ let bitchesValue = 0;
 // fireball variables
 const fireballImage = new Image(275, 275);
       fireballImage.src = "../assets/images/fireball.png";
-const fireballXSpeed = -5.5;
+const fireballXSpeed = -6;
 const fireballHitboxRadius = 100;
-const fireballSpawnInterval = 2000;
+const fireballSpawnInterval = 1900;
 let fireballTimeSinceLastSpawn = fireballSpawnInterval;
 let fireballs = [];
 
