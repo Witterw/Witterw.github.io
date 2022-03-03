@@ -257,6 +257,16 @@ if(gameState == "action") {
             fireballImage.height
         );
 
+        //explosion
+ if(fireball.isExploded == true){
+    drawImage(explosionImage,
+        fireball.xPosition,
+        fireball.yPosition,
+        explosionImage.width,
+        explosionImage.height
+    );
+ }
+        
         if(debugModeIsOn) { // draw the hotbox
             drawCircle(
                 fireball.xPosition, 
@@ -288,6 +298,7 @@ if(gameState == "action") {
                 birdCanFlap = false;
                 gameOverSound.play();
                 gameState = "gameover";
+                fireball.isExploded = true;
                 alert("GAME OVER!");
                 if(confirm("INSERT HIGHSCORE!")) {
                     highscores.push({
