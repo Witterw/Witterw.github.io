@@ -299,6 +299,7 @@ if(gameState == "action") {
                 gameOverSound.play();
                 gameState = "gameover";
                 fireball.isExploded = true;
+                setTimeout(function(){
                 alert("GAME OVER!");
                 if(confirm("INSERT HIGHSCORE!")) {
                     highscores.push({
@@ -308,6 +309,7 @@ if(gameState == "action") {
                     highscores.sort((x, y) => y.highscore - x.highscore);
                 }
                 alert(JSON.stringify(highscores));
+            }, 1000);//wait 1 second
             }
         }
     }
