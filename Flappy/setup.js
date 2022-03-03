@@ -17,6 +17,11 @@ const baggrundImage = new Image(1920,1080);
 const baggrundxPosition = canvas.width/2;
 const baggrundyPosition = canvas.height/2;
 
+//pimp
+const pimpImage = new Image(300, 200);
+    pimpImage.src = "../assets/images/pimp.png";
+const pimpxPosition = canvas.width/2;
+const pimpyPosition = 250;
 
 //highscores 
 let highscores = [];
