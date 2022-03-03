@@ -74,7 +74,7 @@ function update() {
     }   
 
         //draw pimp
-    if(bitchesValue >= 1){
+    if(bitchesValue >= 10){
     // draw pimp
     drawImage(pimpImage,
         pimpxPosition,
