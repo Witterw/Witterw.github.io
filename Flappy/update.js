@@ -73,6 +73,18 @@ function update() {
         cloudTimeSinceLastSpawn = 0;
     }   
 
+        //draw pimp
+    if(bitchesValue >= 1){
+    // draw pimp
+    drawImage(pimpImage,
+        pimpxPosition,
+        pimpyPosition,
+        pimpImage.width,
+        pimpImage.height
+    ); 
+    }
+    
+    
     // draw the bird image
     drawImage(birdImage,
         birdXPosition,
